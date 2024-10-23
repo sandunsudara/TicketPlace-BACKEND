@@ -1,4 +1,4 @@
-package org.example;
+package com.sportbookit;
 
 
 import org.springframework.boot.SpringApplication;
