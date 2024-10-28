@@ -1,4 +1,4 @@
-package com.sportbookit;
+package com.ticketplace;
 
 
 import org.springframework.boot.SpringApplication;
