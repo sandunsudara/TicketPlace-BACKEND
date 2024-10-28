@@ -1,7 +1,7 @@
-package com.sportbookit.model;
+package com.ticketplace.model;
 
 
-public class Usre {
+public class User {
     private String firstName;
     private String lastName;
     private String email;

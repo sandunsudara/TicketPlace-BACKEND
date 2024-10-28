@@ -1,4 +1,4 @@
-package com.sportbookit.model;
+package com.ticketplace.model;
 
 public class LoginDetail {
     private String username;

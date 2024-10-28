@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ticketplace
+    username: root
+    password: sasa2004
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+

@@ -1,4 +1,4 @@
-package com.sportbookit.model;
+package com.ticketplace.model.enums;
 
 public enum EventType {
     Music,
