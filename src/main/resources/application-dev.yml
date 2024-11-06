@@ -3,9 +3,12 @@ spring:
     url: jdbc:mysql://localhost:3306/ticketplace
     username: root
     password: sasa2004
-
   jpa:
     hibernate:
       ddl-auto: update
 
-
+project:
+  totalTickets: 10
+  ticketReleaseRate: 20
+  customerRetrievalRate: 5
+  maxTicketCapacity: 50

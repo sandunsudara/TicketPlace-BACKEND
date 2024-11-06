@@ -1,6 +1,6 @@
 package com.ticketplace.controller;
 
-import com.ticketplace.entity.AdminEntity;
+import com.ticketplace.entity.VendorEntity;
 import com.ticketplace.model.Admin;
 import com.ticketplace.service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ public class AdminController {
     AdminService adminService;
 
     @PostMapping
-    public AdminEntity save(@RequestBody Admin admin) {
+    public VendorEntity save(@RequestBody Admin admin) {
         return adminService.save(admin);
 
     }
@@ -27,7 +27,7 @@ public class AdminController {
     }
 
     @PutMapping
-    public AdminEntity update(@RequestBody Admin admin) {
+    public VendorEntity update(@RequestBody Admin admin) {
         return adminService.updateEntity(admin);
     }
 

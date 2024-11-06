@@ -16,7 +16,6 @@ public class UserEntity {
 
         @Id
         @GeneratedValue(strategy = GenerationType.UUID)
-        @Column(name = "id")
         private UUID id;
         @Column(length = 40, nullable = false,unique = true)
         private String userId;
@@ -25,6 +24,7 @@ public class UserEntity {
         @Column(unique = true, nullable = false)
         private String email;
         private String contact;
+
         @OneToOne(cascade = CascadeType.ALL)
         private LoginDetailEntity loginDetail;
 }

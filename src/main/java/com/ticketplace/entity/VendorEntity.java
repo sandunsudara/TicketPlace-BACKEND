@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class AdminEntity extends UserEntity {
-    @Column(nullable = false, unique = true,name="admin_id")
-    private String adminId;
+public class VendorEntity extends UserEntity {
+    @Column(nullable = false, unique = true)
+    private String vendorId;
 }
